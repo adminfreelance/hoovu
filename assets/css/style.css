@@ -1481,6 +1481,13 @@ textarea.input-field {
   flex-direction: row;
 }
 
+
+@media only screen and (max-width: 600px) {
+  .footer {
+      font-size: 14px; /* Adjust the font size for smaller screens */
+      /* Other styles for smaller screens */
+  }
+
 .footer-link:is(:hover, :focus-visible) { color: #ebeba3; } 
 
 .copyright {
