@@ -840,6 +840,12 @@ background-position: center;}
   margin-inline: auto;
 }
 
+@media only screen and (max-width: 600px) {
+  .text-center {
+      padding-top: 120px; /* Adjust the padding-top for mobile screens */
+  }
+}
+
 .navbar .contact-label { margin-block-end: 10px; }
 
 .navbar::-webkit-scrollbar-thumb { background-color: var(--white-alpha-10); }
@@ -1266,8 +1272,12 @@ background-position: center;}
 /* .reservation-form { margin-block-start: 200px;} */
 
 .reservation-form {
-  height: 90%; /* Set a height */
+  /* padding-top: 10%;
+  padding-bottom: 10%; */
+  /* height: 90%; Set a height */
   overflow-y: auto; /* Enable vertical scrolling */
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 /* .form-text { margin-block-end: 140px; } */
@@ -1308,8 +1318,8 @@ textarea.input-field {
 }
 
 .form-left .btn {
-  max-width: 100%;
-  width: 100%;
+  max-width: 90%;
+  width: 90%;
 }
 
 .form-right {
@@ -1874,10 +1884,11 @@ textarea.input-field {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 20px;
+    
   }
 
   .reservation .input-wrapper:nth-child(4) {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
 
@@ -2108,6 +2119,11 @@ textarea.input-field {
     margin-inline: auto;
   }
 
+
+
+.reservation .container{
+width: 90%;
+}
 
 
   /**
