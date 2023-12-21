@@ -1276,9 +1276,33 @@ background-position: center;}
   padding-bottom: 10%; */
   /* height: 90%; Set a height */
   overflow-y: auto; /* Enable vertical scrolling */
-  padding-left: 10%;
-  padding-right: 10%;
+  /* padding-left: 5%; */
+  /* padding-right: 10%; */
 }
+
+@media only screen and (max-width: 768px) {
+  .reservation-form{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+.headline-11{
+  color:#ebeba3;
+  font-family: var(--fontFamily-forum);
+  font-weight: var(--weight-regular);
+  line-height: var(--lineHeight-2);
+  font-size: 60px;
+}
+
+@media only screen and (max-width: 768px) {
+  .headline-11{
+    padding-top: 5%;
+   
+  }
+}
+
+
 
 /* .form-text { margin-block-end: 140px; } */
 
@@ -1301,7 +1325,14 @@ background-position: center;}
 /* .form-right .body-4:not(:last-child) { margin-block-end: 25px; } */
 
 .form-left,
-/* .form-right { padding: 40px 20px 30px; } */
+.form-right{} ,
+
+@media only screen and (max-width: 768px) {
+  .form-right{
+    padding-bottom: 5%;
+   
+  }
+}
 
 .input-field[type="date"] {
   text-transform: uppercase;
@@ -1318,8 +1349,8 @@ textarea.input-field {
 }
 
 .form-left .btn {
-  max-width: 90%;
-  width: 90%;
+  max-width: 100%;
+  width: 100%;
 }
 
 .form-right {
@@ -2121,9 +2152,7 @@ textarea.input-field {
 
 
 
-.reservation .container{
-width: 90%;
-}
+
 
 
   /**
