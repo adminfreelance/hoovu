@@ -842,7 +842,7 @@ background-position: center;}
 
 @media only screen and (max-width: 600px) {
   .text-center {
-      padding-top: 120px; /* Adjust the padding-top for mobile screens */
+      padding-top: 20px; /* Adjust the padding-top for mobile screens */
   }
 }
 
@@ -1308,6 +1308,25 @@ background-position: center;}
   font-size: 60px;
 }
 
+
+.headline-12{
+  color:#ebeba3;
+  font-family: var(--fontFamily-forum);
+  font-weight: var(--weight-regular);
+  line-height: var(--lineHeight-2);
+  font-size: 60px;
+}
+
+@media only screen and (max-width: 768px) {
+  .headline-12{
+    padding-top: 5%;
+    font-size: 200%;
+   
+  }
+}
+
+
+
 @media only screen and (max-width: 768px) {
   .headline-11{
     padding-top: 5%;
@@ -1337,13 +1356,52 @@ background-position: center;}
 
 /* .form-right .body-4:not(:last-child) { margin-block-end: 25px; } */
 
-.form-left,
-.form-right{} ,
+.form-left{
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+},
+.forms-left{padding-top: 8%;},
+.form-right{
+padding-top: 5%;
+},
 
 @media only screen and (max-width: 768px) {
   .form-right{
     padding-bottom: 5%;
    
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* For screens up to 768px width */
+  .forms-left {
+    padding-bottom: 5%;
+    padding-top: 30%; /* Adjusted padding for mobile screens */
+    padding-left: 5%;
+    padding-right: 5%;
+    /* Add any other styles for .form-right at this screen size */
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  /* For screens up to 768px width */
+  .forms-left {
+    padding-bottom: 5%;
+    padding-top: 5%; /* Adjusted padding for mobile screens */
+    padding-left: 5%;
+    padding-right: 5%;
+    /* Add any other styles for .form-right at this screen size */
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* For screens up to 600px width */
+  .forms-left {
+    padding-top: 30%; /* Adjusted padding for mobile screens */
+    padding-left: 5%;
+    padding-right: 5%;
+    /* Add any other styles for .forms-left at this screen size */
   }
 }
 
@@ -1362,6 +1420,17 @@ textarea.input-field {
 }
 
 .form-left .btn {
+  max-width: 100%;
+  width: 100%;
+}
+
+.forms.btn {
+  max-width: 100%;
+  width: 100%;
+ 
+}
+
+.forms-left .btn {
   max-width: 100%;
   width: 100%;
 }
@@ -1943,6 +2012,34 @@ textarea.input-field {
   }
 
 
+  .forms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding-top: 12%;
+   padding-bottom: 2%;
+  }
+
+  .fd{
+    padding-top: 20%;
+
+  }
+
+  @media only screen and (max-width: 600px) {
+    .forms {
+      padding-top: 500px; /* Adjust the padding-top for mobile screens */
+    }
+  }
+
+
+
+
+  .containers{
+    max-width: 800px; /* Set your desired maximum width */
+  width: 100%;
+  padding: 0 20px;
+  }
+
 
   /**
    * FOOTER
@@ -2104,8 +2201,8 @@ textarea.input-field {
    */
 
   .reservation-form {
-    display: grid;
-    grid-template-columns: 1fr 0.5fr;
+    display: grid; 
+     grid-template-columns: 1fr 0.5fr;
   }
 
 
@@ -2297,7 +2394,7 @@ textarea.input-field {
    * TESTIMONIALS
    */
 
-  .form-left,
+  .form-left{},
   .form-right { padding: 75px 60px; }
 
 
