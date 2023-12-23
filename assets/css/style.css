@@ -978,6 +978,15 @@ background-position: center;}
   z-index: 1;
 }
 
+
+@media only screen and (max-width: 600px) {
+  .hero .slider-item {
+      padding-block-start: 0px;
+       /* Adjust the padding-top for mobile screens */
+       top: 40%;
+  }
+}
+
 .hero .slider-item.active {
   opacity: 1;
   visibility: visible;
