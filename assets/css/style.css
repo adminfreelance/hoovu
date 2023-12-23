@@ -2487,7 +2487,7 @@ textarea.input-field {
   
 
 
-  .central{
+/*   .central{
     align-items: center;
   }
 
@@ -2496,7 +2496,14 @@ textarea.input-field {
     .central {
      padding-top: 2000px;
     }
+  } */
+
+
+  @media only screen and (max-width: 600px) {
+  .central {
+      padding-bottom: 20px; /* Adjust the padding-top for mobile screens */
   }
+}
 
   
 
