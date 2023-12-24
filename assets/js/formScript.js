@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
+    console.log("clicked");
     const reservationForm = document.querySelector(".forms-left");
   
     if (reservationForm) {
