@@ -1505,6 +1505,29 @@ padding-top: 5%;
   }
 }
 
+
+
+@media only screen and (min-width: 769px) {
+  /* For screens up to 768px width */
+  .add {
+    padding-bottom: 10%;
+    padding-top: 5%; /* Adjusted padding for mobile screens */
+   
+    /* Add any other styles for .form-right at this screen size */
+  }
+}
+
+
+
+@media only screen and (max-width: 769px) {
+  /* For screens up to 768px width */
+  .add {
+    padding-bottom: 10%;
+    padding-top: 29%; /* Adjusted padding for mobile screens */
+   
+    /* Add any other styles for .form-right at this screen size */
+  }
+}
 @media only screen and (max-width: 600px) {
   /* For screens up to 600px width */
   .forms-left {
@@ -2513,6 +2536,7 @@ textarea.input-field {
       padding-bottom: 20px; /* Adjust the padding-top for mobile screens */
   }
 }
+
 
   
 
