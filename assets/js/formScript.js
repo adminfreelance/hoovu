@@ -55,6 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
           .catch((error) => {
             console.error("Error submitting form:", error);
           });
+          return false; // or event.preventDefault();
       });
     } else {
       console.error('Element with class "forms-left" not found.');
