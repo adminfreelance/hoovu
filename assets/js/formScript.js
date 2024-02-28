@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // Use a CORS proxy to handle the cross-origin request
       fetch(
-        "https://script.google.com/macros/s/AKfycbzrPu2eHUleekXkF1JA7XyLuV0MdAhMF5RWR5n9QWUovRP16W2zs202esrYHC3SV_A/exec",
+        "https://script.google.com/macros/s/AKfycbz6Qqn8cU1C7IcJF8f0GFnUyxm9LPHiyiEELrPddyhjMWkBf7qOoyD93XJlmz2Mfon2hA/exec",
         {
           method: "POST",
           body: JSON.stringify(formObject),
